@@ -25,3 +25,9 @@ impl WordCounter {
         self.text.split_whitespace().count()
     }
 }
+
+fn main() {
+    let mut word_counter = WordCounter::new();
+    word_counter.read_text();
+    println!("Word count: {}", word_counter.count_words());
+}
