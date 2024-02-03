@@ -1,3 +1,7 @@
-fn main() {
-    println!("Hello, world!");
+use std::io;
+
+struct WordCounter {
+    text: String,
 }
+
+
